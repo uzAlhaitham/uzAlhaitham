@@ -4,6 +4,7 @@ repo_description: |
     Shaxsiy F-Droid repozitoriyasi.
     Turli Android ilovalari.
 archive_older: 0
+repo_icon: icon.png
 
 keystore: keystore.jks
 repo_keyalias: fdroid
