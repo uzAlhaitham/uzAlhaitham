@@ -1,0 +1,47 @@
+A seamless backup and restore companion app for the Namida Music & Video Player, built in Flutter.
+
+Features
+
+One-tap backup & restore for your Namida player data and music library
+Two powerful sync methods:
+* Google Drive Sync - Cloud-based backup with automatic sync
+* Local Network Transfer - Peer-to-peer sharing without internet
+
+Smart file handling - Incremental sync, skips duplicates, handles large libraries
+Cross-platform compatibility - Works between Android and Windows
+Auto-detection - Finds your latest backup and music folders automatically
+Folder structure preservation - Maintains your music organization during transfers
+
+Sync Methods
+
+Google Drive Sync
+* Cloud Storage: secure backup to Google Drive
+* Automatic Sync: one-tap backup and restore
+* Cross-Device Access: access your backups from anywhere
+* Version History: keep multiple backup versions
+
+Local Network Transfer
+* Peer-to-Peer: direct device-to-device transfer
+* No Internet Required: works on local network only
+* High Speed: much faster than cloud upload/download
+* User Approval: accept/decline incoming transfers
+* Real-time Progress: live transfer status updates
+
+How It Works
+
+1. Folder Detection & Validation
+   Auto-detects default folders on Android (/storage/emulated/0/Namida/Backups and /storage/emulated/0/Music). Custom folders can be selected manually. Validates backup zip and music files before syncing.
+
+2. Backup & Restore Workflow
+   Backup: finds latest backup zip and music folders, creates a manifest with file metadata and structure, transfers files using chosen sync method, preserves folder hierarchy and handles duplicates.
+   Restore: downloads and reads manifest, checks platform compatibility, restores backup zip and music folders, shows progress, skips duplicates, handles errors.
+
+Pro Tips
+
+* Put all your music folders into a single parent folder for easier backup and restore
+* Before restoring on a new device, make sure your latest backup is available
+* Local network transfer is often faster than cloud sync for large libraries
+* Use descriptive device aliases for easier identification
+
+License: MIT
+Source code: https://github.com/010101-sans/namida_sync

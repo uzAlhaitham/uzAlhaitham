@@ -1,0 +1,9 @@
+Namida Sync 1.2.0
+
+- One-tap backup & restore
+- Google Drive sync
+- Local network transfer
+- Cross-platform compatibility
+- Smart file handling
+
+Full changelog: https://github.com/010101-sans/namida_sync/releases
