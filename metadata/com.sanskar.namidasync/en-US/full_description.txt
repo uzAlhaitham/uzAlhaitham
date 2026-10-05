@@ -1,16 +1,22 @@
-A seamless backup and restore companion app for the Namida Music & Video Player, built in Flutter.
+The official backup and sync companion app for the Namida Music & Video Player.
+
+Namida Sync is built specifically to work with Namida (com.msob7y.namida) — the beautiful music & video player with YouTube support. It helps you back up, transfer and restore your Namida player data and music library across devices.
+
+About Namida Sync
+
+Namida Sync is a companion sync tool for the Namida music player. It is not a music player itself — it only handles backup, restore and syncing of your Namida environment.
 
 Features
 
 One-tap backup & restore for your Namida player data and music library
 Two powerful sync methods:
-* Google Drive Sync - Cloud-based backup with automatic sync
-* Local Network Transfer - Peer-to-peer sharing without internet
+* Google Drive Sync — Cloud-based backup with automatic sync
+* Local Network Transfer — Peer-to-peer sharing without internet
 
-Smart file handling - Incremental sync, skips duplicates, handles large libraries
-Cross-platform compatibility - Works between Android and Windows
-Auto-detection - Finds your latest backup and music folders automatically
-Folder structure preservation - Maintains your music organization during transfers
+Smart file handling — Incremental sync, skips duplicates, handles large libraries
+Cross-platform compatibility — Works between Android and Windows
+Auto-detection — Finds your latest backup and music folders automatically
+Folder structure preservation — Maintains your music organization during transfers
 
 Sync Methods
 
@@ -47,6 +53,8 @@ Related Apps
 
 Namida Sync is a companion app for Namida (com.msob7y.namida), the beautiful music & video player with YouTube support. Install Namida from the same F-Droid repository:
 https://uzAlhaitham.github.io/uzAlhaitham/repo
+
+Source code of Namida: https://github.com/namidaco/namida
 
 License: MIT
 Source code: https://github.com/010101-sans/namida_sync
