@@ -1,0 +1,6 @@
+Namida 7.1.2
+
+- Bug fixes and improvements
+- Performance optimizations
+
+Full changelog: https://github.com/namidaco/namida/releases/tag/v7.1.2

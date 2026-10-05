@@ -1,0 +1,14 @@
+Namida is a beautiful and feature-rich music player for Android.
+
+Features:
+- Beautiful Material Design interface
+- Multiple themes (light, dark, monet)
+- Advanced music library management
+- Playlist support
+- Lyrics support
+- Equalizer
+- Sleep timer
+- Tag editor
+- Multiple language support
+
+Namida is free and open source software, licensed under GPL-3.0.
