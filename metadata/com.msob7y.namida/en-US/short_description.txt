@@ -1,1 +1,1 @@
-A beautiful and feature-rich music player
+Beautiful music & video player with YouTube support

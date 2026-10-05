@@ -1,14 +1,97 @@
-Namida is a beautiful and feature-rich music player for Android.
+A Beautiful and Feature-rich Music & Video Player with YouTube Support, built in Flutter.
 
-Features:
-- Beautiful Material Design interface
-- Multiple themes (light, dark, monet)
-- Advanced music library management
-- Playlist support
-- Lyrics support
-- Equalizer
-- Sleep timer
-- Tag editor
-- Multiple language support
+Everything you might expect from a music player, plus:
 
-Namida is free and open source software, licensed under GPL-3.0.
+Library & Indexing
+* Powerful Indexer & Tag Editor
+* Artists and Genres Separators
+* Prevent Duplicated Tracks
+* Set Minimum File Size & Duration
+* Folders-based Library system with exclusion support
+* Sort by almost any property of the track or album
+
+Look & Feel
+* Material3-like Theme
+* Dynamic Theming (player colors picked from current album artwork)
+* Home, Tracks, Albums, Artists, Genres, Playlists, Queues and Folders pages
+* Waveform Seekbar
+* Lots of customizations
+
+Sound
+* Parametric Equalizer with AutoEQ import
+* Bit-perfect Playback & USB DAC Direct Access
+* High precision 32-bit float audio
+* Audio Path viewer
+* Output Device Selection & Mono Audio
+* Crossfade, Gapless Playback, Play/Pause Fade Effect & Skip Silence
+* Speed & Pitch Control (semitones & 432Hz) & Loudness Enhancer
+* Per-track Sound Settings
+* Replay Gain (Normalize Audio)
+
+Streaming & YouTube
+* Best Video & Audio Quality
+* Audio Only & Data Saver Mode
+* Support Downloads, Caching & Offline Playback
+* Video View with gesture support (swipe to control volume, double tap to seek, pinch to fullscreen, long press for 1.5x speed)
+* SponsorBlock & Return YouTube Dislike Integration
+* Segments and Heatmap for videos
+* Cache Priority System
+* Optional auto title/artist/album extraction for downloads and scrobbling
+* Multi Library Support (Local / YT / Subsonic / Jellyfin / WebDAV / SMB)
+
+Others
+* Lyrics auto fetching & displaying (Synced & Plain) + Word Synced lrc/ttml support
+* Sleep Timer (Tracks or Minutes)
+* Control pausing scenarios (calls, notifications, volume 0, etc.)
+* Search tracks by title, artist, album, filename, even lyrics
+* Global Tracks Selection
+* Persistent and reliable queue system
+* Reliable History System with minimum seconds/percentage to count a listen
+* Most Played Playlist
+* Custom Playlists Order & Custom artworks
+* Auto Import Playlists from M3U files & Music Web Servers
+* Left & Right swipe actions for tracks and videos
+* Artwork Gestures (tap and long press)
+* Support for cover.jpg images for folders & .info.txt for small info
+* Sync between devices over local network (history, playlists, favourites, queues, lyrics, caches)
+
+Additional Cool Features
+* Smort Tracks Generation (based on listening history, time range, ratings, moods)
+* Animating Thumbnail (reacts to current audio peak)
+* Miniplayer Party Mode (edge breathing effect, dynamic colors)
+* Particles Effect (speed up with audio peak)
+* Track Play Mode (play selected, search results, album, artist, or genre)
+* Insert after latest inserted
+* Repeat for N times (in addition to normal repeat modes)
+* Extract feat. & ft. artists to their own entries
+* "Lost Memories" — meet tracks you listened to around this time, N years ago
+* "Recommended" tracks addition in queue
+* "Similar Release Date" tracks addition in queue
+* Import YouTube History, LastFM, Spotify & ListenBrainz
+
+Video Integration
+* Full video library indexing & playback (since v4.0.0)
+* Videos can be played independently or alongside music
+* Dedicated videos folder view
+* Videos can be fetched from YouTube automatically
+
+Permissions Explained
+* WAKE_LOCK, FOREGROUND_SERVICE, FOREGROUND_SERVICE_MEDIA_PLAYBACK — keep app alive for media playback
+* INTERNET — for artist/album images, streaming & downloading
+* READ_EXTERNAL_STORAGE (Android ≤ 12) — list files from indexer folders only
+* READ_MEDIA_AUDIO, READ_MEDIA_VIDEO, READ_MEDIA_IMAGES (Android 13+) — list media files from indexer folders
+* WRITE_EXTERNAL_STORAGE (Android ≤ 10) — for file operations
+* MANAGE_EXTERNAL_STORAGE (Android 10+) — for editing tags, creating backups, saving artworks, deleting files, exporting playlists, downloading YouTube content
+* VIBRATE — haptic feedback (can be turned off)
+* POST_NOTIFICATIONS — progress notifications
+* REQUEST_IGNORE_BATTERY_OPTIMIZATIONS — improve downloads
+* WRITE_SETTINGS — set audio as ringtone
+* QUERY_ALL_PACKAGES — open custom equalizer apps
+
+Installation
+This is the official community-maintained F-Droid repository for Namida.
+
+Note: Namida is only available through namida.app, GitHub & Telegram. We are not responsible for downloads from other sources.
+
+License: EULA (see upstream repository for details)
+Source code: https://github.com/namidaco/namida
