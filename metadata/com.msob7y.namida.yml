@@ -12,12 +12,6 @@ AutoName: Namida
 RepoType: git
 Repo: https://github.com/msob7y/namida
 
-Builds:
-  - versionName: 7.1.2
-    versionCode: 260919170
-    commit: v7.1.2
-    disable: prebuilt APK from upstream releases
-
 AutoUpdateMode: None
 UpdateCheckMode: None
 CurrentVersion: 7.1.2
