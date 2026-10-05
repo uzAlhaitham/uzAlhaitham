@@ -2,15 +2,15 @@ Categories:
   - Multimedia
 License: GPL-3.0-or-later
 AuthorName: msob7y
-WebSite: https://github.com/msob7y/namida
-SourceCode: https://github.com/msob7y/namida
-IssueTracker: https://github.com/msob7y/namida/issues
-Changelog: https://github.com/msob7y/namida/releases
+WebSite: https://github.com/namidaco/namida
+SourceCode: https://github.com/namidaco/namida
+IssueTracker: https://github.com/namidaco/namida/issues
+Changelog: https://github.com/namidaco/namida/releases
 
 AutoName: Namida
 
 RepoType: git
-Repo: https://github.com/msob7y/namida
+Repo: https://github.com/namidaco/namida
 
 AutoUpdateMode: None
 UpdateCheckMode: None
