@@ -43,5 +43,10 @@ Pro Tips
 * Local network transfer is often faster than cloud sync for large libraries
 * Use descriptive device aliases for easier identification
 
+Related Apps
+
+Namida Sync is a companion app for Namida (com.msob7y.namida), the beautiful music & video player with YouTube support. Install Namida from the same F-Droid repository:
+https://uzAlhaitham.github.io/uzAlhaitham/repo
+
 License: MIT
 Source code: https://github.com/010101-sans/namida_sync
