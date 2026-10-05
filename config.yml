@@ -1,0 +1,10 @@
+repo_url: https://uzAlhaitham.github.io/uzAlhaitham/repo
+repo_name: uzAlhaitham F-Droid Repo
+repo_description: |
+    Shaxsiy F-Droid repozitoriyasi.
+    Turli Android ilovalari.
+archive_older: 0
+
+keystore: keystore.jks
+repo_keyalias: fdroid
+keydname: CN=uzAlhaitham, OU=FDroid, O=Personal, L=Tashkent, C=UZ

@@ -1,0 +1,14 @@
+# F-Droid intermediary
+fdroid/
+tmp/
+srclibs/
+build/
+.idea/
+*.iml
+
+# Keystore — MAXFIY!
+keystore.jks
+*.b64
+
+# Local
+local.properties

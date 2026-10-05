@@ -1,0 +1,24 @@
+Categories:
+  - Multimedia
+License: GPL-3.0-or-later
+AuthorName: msob7y
+WebSite: https://github.com/msob7y/namida
+SourceCode: https://github.com/msob7y/namida
+IssueTracker: https://github.com/msob7y/namida/issues
+Changelog: https://github.com/msob7y/namida/releases
+
+AutoName: Namida
+
+RepoType: git
+Repo: https://github.com/msob7y/namida
+
+Builds:
+  - versionName: 7.1.2
+    versionCode: 260919170
+    commit: v7.1.2
+    disable: prebuilt APK from upstream releases
+
+AutoUpdateMode: None
+UpdateCheckMode: None
+CurrentVersion: 7.1.2
+CurrentVersionCode: 260919170
